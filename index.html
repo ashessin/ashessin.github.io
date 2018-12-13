@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html lang="en">
 <html>
 
 <head>
@@ -7,13 +7,15 @@
     <meta name="description" content="A simple webpage for maintaining my up to date Résumé">
     <meta name="author" content="Ashesh Kumar Singh <user501254@gmail.com>">
     <title>Ashesh's Résumé</title>
-    <link href="https://fonts.googleapis.com/css?family=Bitter|Droid+Sans" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/black/pace-theme-big-counter.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab">
     <style>
         body {
-            font-family: 'Bitter', 'Georgia', serif !important;
+            font-family: 'Roboto Slab', 'Georgia', serif !important;
         }
         
         header {
@@ -23,7 +25,6 @@
         }
         
         a {
-            color: #09f;
             text-decoration: none;
         }
         
@@ -40,17 +41,55 @@
         table {
             overflow-x: hidden !important;
         }
+
+        #social {
+            position: relative;
+            display: inline;
+        }
         
         #gravatar {
             height: 200px;
             width: 200px;
-            border-radius: 100%
+            border-radius: 100%;
+            filter: grayscale(0%) drop-shadow(0px 2px 2px black);
+        }
+
+        .imtip1, .imtip2 {
+            position: absolute;
+            margin: 1em;
+            filter: grayscale(100%) drop-shadow(2px 2px 2px black);
+            animation: shake 1.4s ease-in-out infinite;
+        }
+
+        .imtip1:hover, .imtip2:hover {
+            animation-play-state: paused;
+            filter: grayscale(0%) drop-shadow(2px 2px 2px black);
+        }
+
+        .imtip1 {
+            bottom: 52;
+        }
+
+        .imtip2 {
+            bottom: 10;
+        }
+
+        @keyframes shake {
+            0%{
+                transform: rotate(10deg);
+            }
+            50%{
+                transform: rotateZ(-10deg);
+            }
+            100%{
+                transform: rotateZ(10deg);
+            }
         }
         
         @media (max-width: 768px) {
             #gravatar {
-                height: 100px;
-                width: 100px;
+                height: 150px;
+                width: 150px;
             }
             td {
                 word-break: break-word
@@ -81,6 +120,7 @@
             margin: 3px;
             padding-top: 20px;
             padding-bottom: 20px;
+            /* color: #000 !important; */
         }
         
         .gist .markdown-body table tr:nth-child(2n) {
@@ -101,15 +141,15 @@
         }
         
         #readme>article {
-            font-family: 'Bitter', 'Georgia', serif !important;
+            font-family: 'Roboto Slab', 'Georgia', serif !important;
         }
         
         #readme>article>h1 {
-            font-family: 'Droid Sans', 'Helvetica', sans-serif !important;
+            font-family: 'Roboto', 'Helvetica', sans-serif !important;
         }
         
         #readme a {
-            color: cornflowerblue;
+            color: blue;
         }
         
         #readme>article p {
@@ -122,20 +162,19 @@
         
         .scroll-help {
             text-align: right;
-            font-family: monospace;
+            font-family: Roboto;
         }
     </style>
 </head>
 
 <body>
     <header id="top">
-        <img id="gravatar" src="https://www.gravatar.com/avatar/04a3deb5c969deb52dd0e161035943a2?s=200" />
-        <h1>Ashesh Kumar Singh</h1>
-        <!-- <p class="social">
-            <a href='mailto:'>Email</a> ·
-            <a href="https://github.com/user501254">GitHub</a> ·
-            <a href="https://stackoverflow.com/users/2534513/">StackOverflow</a>
-        </p> -->
+        <div id="social">
+            <img id="gravatar" alt="my avatar" src="https://www.gravatar.com/avatar/04a3deb5c969deb52dd0e161035943a2?s=200" />
+            <a href="https://t.me/user501254"><img class="imtip1" src="https://web.telegram.org/favicon.ico" title="Leave me a message on Telegram"></a>
+            <a href="https://keybase.pub/user501254/"><img class="imtip2" src="https://keybase.io/favicon.ico" title="Access my public files on Keybase"></a>
+            <h1>Ashesh Kumar Singh</h1>
+        </div>
     </header>
     <section>
         <div id="gists">
@@ -159,6 +198,8 @@
         for (var i = 0; i < links.length; i++) {
             if (links[i].href != document.URL.replace(/#.*$/, "") + "#top") {
                 links[i].target = "_blank";
+                if (links[i].rel === "")
+                    links[i].rel = "noopener";
             }
         }
     </script>
