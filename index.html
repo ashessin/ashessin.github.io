@@ -1,5 +1,5 @@
-<!DOCTYPE html lang="en">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -16,29 +16,34 @@
         body {
             font-family: 'Roboto Slab', 'Georgia', serif !important;
         }
-        
+
         header {
             padding-top: 60px;
             padding-bottom: 60px;
             text-align: center;
         }
-        
+
         a {
             text-decoration: none;
         }
-        
+
         a:hover {
             text-decoration: underline;
         }
-        
+
         a:active,
         a:focus {
             position: relative;
             top: 1px;
         }
-        
+
         table {
             overflow-x: hidden !important;
+        }
+
+        table:not(#social) > tbody{
+            display: table;
+            width: 100%;
         }
 
         #social {
@@ -75,7 +80,7 @@
                 transform: rotateZ(10deg);
             }
         }
-        
+
         @media (max-width: 768px) {
             #gravatar {
                 height: 150px;
@@ -89,67 +94,67 @@
                 display: none;
             }
         }
-        
+
         @media (max-width: 576px) {
             #file-education-md>#readme>article>table>tbody>tr>th:nth-child(4),
             #file-education-md>#readme>article>table>tbody>tr>td:nth-child(4) {
                 display: none;
             }
         }
-        
+
         #gists {
             max-width: 992px;
             margin: auto;
         }
-        
+
         .gist-data {
             border-bottom: 0px !important
         }
-        
+
         .gist {
             margin: 3px;
             padding-top: 20px;
             padding-bottom: 20px;
             color: #000 !important;
         }
-        
+
         .gist .markdown-body table tr:nth-child(2n) {
             background-color: #fff !important;
         }
-        
+
         .gist-file {
             border: 0px !important;
         }
-        
+
         #readme>article>table>tbody>tr>th,
         #readme>article>table>tbody>tr>td {
             border: 0px;
         }
-        
+
         .gist-meta {
             display: none;
         }
-        
+
         #readme>article {
             font-family: 'Roboto Slab', 'Georgia', serif !important;
         }
-        
+
         #readme>article>h1 {
             font-family: 'Roboto', 'Helvetica', sans-serif !important;
         }
-        
+
         #readme a {
             color: blue;
         }
-        
+
         #readme>article p {
             text-align: justify;
         }
-        
+
         .text-muted {
             color: #777;
         }
-        
+
         .scroll-help {
             text-align: right;
             font-family: Roboto;
