@@ -14,150 +14,153 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
     <style>
         body {
-            font-family: 'Roboto Slab', 'Georgia', serif !important;
+            font-family: 'Roboto Slab', 'Georgia', serif!important
         }
 
         header {
             padding-top: 60px;
             padding-bottom: 60px;
-            text-align: center;
+            text-align: center
         }
 
         a {
-            text-decoration: none;
+            text-decoration: none
         }
 
         a:hover {
-            text-decoration: underline;
+            text-decoration: underline
         }
 
         a:active,
         a:focus {
             position: relative;
-            top: 1px;
+            top: 1px
         }
 
         table {
-            overflow-x: hidden !important;
+            overflow-x: hidden!important
         }
 
-        table:not(#social) > tbody{
+        table:not(#social)>tbody {
             display: table;
-            width: 100%;
+            width: 100%
         }
 
         #social {
             display: inline;
-            margin-right: -48px;
+            margin-right: -48px
         }
 
         #gravatar {
             height: 200px;
             width: 200px;
             border-radius: 100%;
-            filter: grayscale(0%) drop-shadow(0px 2px 2px black);
+            filter: grayscale(0%) drop-shadow(0px 2px 2px black)
         }
 
         .imtip {
+            height: 32px;
+            width: 32px;
             margin: 8px;
             filter: grayscale(100%) drop-shadow(2px 2px 2px black);
-            animation: shake 1.4s ease-in-out infinite;
+            animation: shake 1.4s ease-in-out infinite
         }
 
         .imtip:hover {
             animation-play-state: paused;
-            filter: grayscale(0%) drop-shadow(2px 2px 4px black);
+            filter: grayscale(0%) drop-shadow(2px 2px 4px black)
         }
 
         @keyframes shake {
-            0%{
-                transform: rotate(10deg);
+            0% {
+                transform: rotate(10deg)
             }
-            50%{
-                transform: rotateZ(-10deg);
+            50% {
+                transform: rotateZ(-10deg)
             }
-            100%{
-                transform: rotateZ(10deg);
+            100% {
+                transform: rotateZ(10deg)
             }
         }
 
         @media (max-width: 768px) {
             #gravatar {
                 height: 150px;
-                width: 150px;
+                width: 150px
             }
             td {
                 word-break: break-word
             }
             #file-education-md>#readme>article>table>tbody>tr>th:nth-child(3),
             #file-education-md>#readme>article>table>tbody>tr>td:nth-child(3) {
-                display: none;
+                display: none
             }
         }
 
         @media (max-width: 576px) {
             #file-education-md>#readme>article>table>tbody>tr>th:nth-child(4),
             #file-education-md>#readme>article>table>tbody>tr>td:nth-child(4) {
-                display: none;
+                display: none
             }
         }
 
         #gists {
             max-width: 992px;
-            margin: auto;
+            margin: auto
         }
 
         .gist-data {
-            border-bottom: 0px !important
+            border-bottom: 0!important
         }
 
         .gist {
             margin: 3px;
             padding-top: 20px;
             padding-bottom: 20px;
-            color: #000 !important;
+            color: #000!important
         }
 
         .gist .markdown-body table tr:nth-child(2n) {
-            background-color: #fff !important;
+            background-color: #fff!important
         }
 
         .gist-file {
-            border: 0px !important;
+            border: 0!important
         }
 
         #readme>article>table>tbody>tr>th,
         #readme>article>table>tbody>tr>td {
-            border: 0px;
+            border: 0
         }
 
         .gist-meta {
-            display: none;
+            display: none
         }
 
         #readme>article {
-            font-family: 'Roboto Slab', 'Georgia', serif !important;
+            font-family: 'Roboto Slab', 'Georgia', serif!important
         }
 
         #readme>article>h1 {
-            font-family: 'Roboto', 'Helvetica', sans-serif !important;
+            font-family: 'Roboto', 'Helvetica', sans-serif!important
         }
 
         #readme a {
-            color: blue;
+            color: blue
         }
 
         #readme>article p {
-            text-align: justify;
+            text-align: justify
         }
 
         .text-muted {
-            color: #777;
+            color: #777
         }
 
-        .scroll-help {
+        #scroll-help {
             text-align: right;
             font-family: Roboto;
+            display: none
         }
     </style>
 </head>
@@ -166,11 +169,13 @@
     <header id="top">
         <table id="social">
             <tr>
-                <td rowspan="2"><img id="gravatar" alt="my avatar" src="https://www.gravatar.com/avatar/04a3deb5c969deb52dd0e161035943a2?s=200" /></td>
-                <td><a href="https://t.me/user501254"><img class="imtip" src="https://web.telegram.org/favicon.ico" title="Leave me a message on Telegram"></a></td>
+                <td rowspan="2"><img async id="gravatar" alt="my avatar" src="https://www.gravatar.com/avatar/04a3deb5c969deb52dd0e161035943a2?s=200" /></td>
+                <td><a href="https://t.me/user501254"><img async class="imtip" src="https://web.telegram.org/favicon.ico"
+                            title="Leave me a message on Telegram"></a></td>
             </tr>
             <tr>
-                <td><a href="https://keybase.pub/user501254/"><img class="imtip" src="https://keybase.io/favicon.ico" title="Access my public files on Keybase"></a></td>
+                <td><a href="https://keybase.pub/user501254/"><img async class="imtip" src="https://keybase.io/favicon.ico"
+                            title="Access my public files on Keybase"></a></td>
             </tr>
         </table>
         <h1>Ashesh Kumar Singh</h1>
@@ -192,11 +197,14 @@
         </div>
     </section>
     <footer>
-        <div class="scroll-help">
+        <div id="scroll-help">
             <a href="#top">Back to Top</a>
         </div>
     </footer>
     <script type="text/javascript">
+        // show 'Back to Top' after all documentwrite()
+        document.getElementById("scroll-help").style.display = 'block';
+
         var links = document.links;
         for (var i = 0; i < links.length; i++) {
             if (links[i].href != document.URL.replace(/#.*$/, "") + "#top") {
@@ -204,12 +212,30 @@
                 links[i].rel = "noreferrer";
             }
         }
+
+        // Passive Event Listeners (coz Lighthouse won't stop complaining)
+        // Test via a getter in the options object to see if the passive property is accessed
+        var supportsPassive = false;
+        try {
+            var opts = Object.defineProperty({}, 'passive', {
+                get: function () {
+                    supportsPassive = true;
+                }
+            });
+            window.addEventListener("testPassive", null, opts);
+            window.removeEventListener("testPassive", null, opts);
+        } catch (e) { }
+
+        // Use our detect's results. passive applied if supported, capture will be false either way.
+        ['wheel', 'mousewheel', 'touchstart', 'touchmove'].forEach(function (e) {
+            document.addEventListener(e, function () { }, supportsPassive ? { passive: true } : false);
+        });
     </script>
     <script type="text/javascript">
         WebFontConfig = {
-            google: { families: [ 'Roboto', 'Roboto+Slab' ] }
+            google: { families: ['Roboto', 'Roboto+Slab'] }
         };
-        (function() {
+        (function () {
             var wf = document.createElement('script');
             wf.src = 'https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js';
             wf.type = 'text/javascript';
@@ -222,7 +248,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-71845746-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'UA-71845746-1');
