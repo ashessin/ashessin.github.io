@@ -1,6 +1,6 @@
 # Specific branch context: Deploys from this branch
 # will take these settings and override their
 # current ones.
-[context.blog]
+[context.www2]
   command = "jekyll build"
   publish = "_site"
