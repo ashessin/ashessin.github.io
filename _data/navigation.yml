@@ -1,0 +1,13 @@
+main:
+  - title: "Blog"
+    url: /blog/
+  - title: "Projects"
+    url: /projects/
+  - title: "Categories"
+    url: /archive/categories/
+  - title: "Tags"
+    url: /archive/tags/
+  - title: "Pages"
+    url: /archive/pages/
+  - title: "Collections"
+    url: /archive/collections/
