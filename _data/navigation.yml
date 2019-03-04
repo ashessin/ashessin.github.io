@@ -3,11 +3,11 @@ main:
     url: /blog/
   - title: "Projects"
     url: /projects/
+  - title: "Collections"
+    url: /archive/collections/
   - title: "Categories"
     url: /archive/categories/
   - title: "Tags"
     url: /archive/tags/
-  - title: "Pages"
-    url: /archive/pages/
-  - title: "Collections"
-    url: /archive/collections/
+  - title: "Archive"
+    url: /archive/
