@@ -15,7 +15,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "work-in-progress"
+title                    : "ashessin.com"
 title_separator          : "-"
 name                     : "Ashesh Singh"
 description              : "This is my work-in-progress website."
@@ -114,7 +114,7 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
-    - label: "ashessin.com"
+    - label: "CV/Resume"
       icon: "fas fa-fw fa-link"
       url: "https://www.ashessin.com"
     - label: "Twitter"
