@@ -1,6 +1,5 @@
 ---
-layout: single
-title:  "_posts/talks - Welcome to Jekyll!"
+title:  "Welcome to _posts/talks!"
 date:   2019-02-24 01:16:12 +0530
 categories: talks
 tags: talk-tag1 talk-tag2

@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "_posts/courses - Welcome to Jekyll!"
+title:  "Welcome to _posts/courses!"
 date:   2019-02-24 01:16:12 +0530
 categories: courses
 tags: course-tag1 course-tag2

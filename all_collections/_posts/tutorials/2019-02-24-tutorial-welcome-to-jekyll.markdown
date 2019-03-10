@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "_posts/tutorials - Welcome to Jekyll!"
+title:  "Welcome to _posts/tutorials!"
 date:   2019-02-24 01:16:12 +0530
 categories: tutorials
 tags: tutorial-tag1 tutorial-tag2

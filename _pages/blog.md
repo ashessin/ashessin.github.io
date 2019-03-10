@@ -6,4 +6,4 @@ collection: posts
 classes: wide
 ---
 
-Sample document listing for the collection `_blog`.
+Sample document listing for the collection `_posts`.
