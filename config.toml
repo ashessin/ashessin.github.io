@@ -1,5 +1,5 @@
-baseURL = "http://www.example.com"
-title = "Minimo"
+baseURL = "https://www2.ashessin.com"
+title = "ashessin.com"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
 
@@ -15,6 +15,8 @@ enableRobotsTXT = true # generate robots.txt
 
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
 pygmentsCodefences = true
+pygmentsOptions = ["linenos=true"]
+PygmentsStyle = "solarized-light"
 
 enableEmoji = true
 
@@ -22,7 +24,7 @@ enableEmoji = true
 defaultContentLanguage = "en"
 
 [params.info]
-description = "Minimalist theme for Hugo"
+description = "My work-in-progress academic webpage."
 title404 = "Nothing's here!"
 
 [params.assets]
@@ -32,26 +34,27 @@ customJS = ["js/custom.js"]
 gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
-prefix = ""
-holder = "MunifTanjim"
-startYear = "2017"
+ccLicense = "by" # one of ["by", "by-sa", "by-nd", "by-nc", "by-nc-sa", "by-nc-nd"]
+prefix = "Copyright"
+holder = "Ashesh Singh"
+startYear = "2018"
 suffix = ""
 
 [params.settings]
 # date & time format: https://golang.org/pkg/time/
-dateFormat = "2006, Jan 02"
+dateFormat = "January 2, 2006"
 listDateFormat = "2006, Jan 02"
 archiveDateFormat = "Jan 02"
 hideEntryNavigation = ["page"] # boolean / array of sections
 hideEntryMeta = ["page"] # boolean / array of sections
 showReadingTime = true
 showLastmod = true
-taxonomyCloudShuffle = true
-accentColor = "#ffcd00"
+taxonomyCloudShuffle = false
+accentColor = "#91c6ff"
 hideMainMenu = false
 
 [params.sidebar]
-enable = true
+enable = false
 
 [params.widgets]
 header = ["breadcrumbs"]
@@ -72,20 +75,20 @@ page = "" # Twitter page username
 titleSeparator = "•"
 
 [params.social]
-codepen = "MunifTanjim"
-email = "contact@example.com"
-facebook = "MunifTanjim"
-github = "MunifTanjim"
-gitlab = "MunifTanjim"
-instagram = "MunifTanjim"
-linkedin = "muniftanjim"
-twitter = "MunifTanjim"
-telegram = "MunifTanjim"
-google_scholar = "qc6CJjYAAAAJ"
-youtube = "UCT-U0rNerYxItGcuoPX-WYA"
+codepen = ""
+email = ""
+facebook = ""
+github = "user501254"
+gitlab = ""
+instagram = ""
+linkedin = ""
+twitter = ""
+telegram = "user501254"
+google_scholar = ""
+youtube = ""
 
 [params.comments]
-enable = false
+enable = true
 
 # Isso: https://posativ.org/isso/
 [params.comments.isso]
@@ -94,12 +97,12 @@ scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
 dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [params.comments.staticman]
-enable = true
+enable = false
 apiEndpoint = "https://api.staticman.net/v2/entry"
 maxDepth = 2
-username = "MunifTanjim"
-repository = "minimo"
-branch = "master"
+username = ""
+repository = ""
+branch = ""
 
 # Utterances: https://utteranc.es
 [params.comments.utterances]
@@ -107,8 +110,8 @@ enable = false
 issueTerm = "pathname" # pathname / url / title
 
 [params.comments.utterances.github]
-username = "MunifTanjim"
-repository = "minimo"
+username = "user501254"
+repository = "user501254.github.io"
 
 [params.search]
 client = "fuse" # algolia / fuse / lunr
@@ -131,7 +134,7 @@ page = "/:slug/"
 name = "Repo"
 weight = -10
 identifier = "repository"
-url = "https://github.com/MunifTanjim/minimo"
+url = "https://github.com/user501254/user501254.github.io"
 
 [blackfriday]
 hrefTargetBlank = true
