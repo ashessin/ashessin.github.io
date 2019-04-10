@@ -1,0 +1,12 @@
+# Specific branch context: Deploys from this branch
+# will take these settings and override their
+# current ones.
+[context.static-jekyll]
+  command = "jekyll build --drafts"
+  publish = "_site"
+  JEKYLL_VERSION = "3.8.5"
+
+[context.static-hugo]
+  command = "hugo --buildDrafts"
+  publish = "public"
+  HUGO_VERSION = "0.53"
