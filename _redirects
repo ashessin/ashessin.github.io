@@ -1,0 +1,9 @@
+# http and https need separate rules if you don't force_ssl!
+
+# blog
+http://blog.ashessin.com/* https://www2.ashessin.com/blog/:splat 301!
+https://blog.ashessin.com/* https://www2.ashessin.com/blog/:splat 301!
+
+# projects
+http://projects.ashessin.com/* https://www2.ashessin.com/projects/:splat 301!
+https://projects.ashessin.com/* https://www2.ashessin.com/projects/:splat 301!
