@@ -2,6 +2,8 @@
 # contexts no matter where you define them in the file.
 # For context-specific rules, use _headers or _redirects files, which are 
 # PER-DEPLOY.
+
+# blog
 [[redirects]]
   from = "http://blog.ashessin.com/*"
   to = "https://www2.ashessin.com/blog/:splat"
@@ -14,6 +16,7 @@
   status = 301
   force = true
 
+# projects
 [[redirects]]
   from = "http://projects.ashessin.com/*"
   to = "https://www2.ashessin.com/projects/:splat"
@@ -23,6 +26,60 @@
 [[redirects]]
   from = "https://projects.ashessin.com/*"
   to = "https://www2.ashessin.com/projects/:splat"
+  status = 301
+  force = true
+
+# courses
+[[redirects]]
+  from = "http://courses.ashessin.com/*"
+  to = "https://www2.ashessin.com/courses/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://courses.ashessin.com/*"
+  to = "https://www2.ashessin.com/courses/:splat"
+  status = 301
+  force = true
+
+
+# coursework
+# CS 411. Artificial Intelligence I.
+[[redirects]]
+  from = "http://cs411.ashessin.com/*"
+  to = "https://asing80.people.uic.edu/cs411/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://cs411.ashessin.com/*"
+  to = "https://asing80.people.uic.edu/cs411/:splat"
+  status = 301
+  force = true
+
+# CS 428. Virtual, Augmented and Mixed Reality.
+[[redirects]]
+  from = "http://cs428.ashessin.com/*"
+  to = "https://asing80.people.uic.edu/cs428/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://cs428.ashessin.com/*"
+  to = "https://asing80.people.uic.edu/cs428/:splat"
+  status = 301
+  force = true
+
+# CS 441. Engineering Distributed Objects For Cloud Computing.
+[[redirects]]
+  from = "http://cs441.ashessin.com/*"
+  to = "https://asing80.people.uic.edu/cs441/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://cs441.ashessin.com/*"
+  to = "https://asing80.people.uic.edu/cs441/:splat"
   status = 301
   force = true
 
