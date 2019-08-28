@@ -7,3 +7,20 @@ https://blog.ashessin.com/* https://www2.ashessin.com/blog/:splat 301!
 # projects
 http://projects.ashessin.com/* https://www2.ashessin.com/projects/:splat 301!
 https://projects.ashessin.com/* https://www2.ashessin.com/projects/:splat 301!
+
+# courses
+http://courses.ashessin.com/* https://www2.ashessin.com/courses/:splat 301!
+https://courses.ashessin.com/* https://www2.ashessin.com/courses/:splat 301!
+
+
+# coursework
+# CS 411. Artificial Intelligence I.
+http://cs411.ashessin.com/* https://asing80.people.uic.edu/cs411/:splat 301!
+https://cs411.ashessin.com/* https://asing80.people.uic.edu/cs411/:splat 301!
+# CS 428. Virtual, Augmented and Mixed Reality.
+http://cs428.ashessin.com/* https://asing80.people.uic.edu/cs428/:splat 301!
+https://cs428.ashessin.com/* https://asing80.people.uic.edu/cs428/:splat 301!
+# CS 441. Engineering Distributed Objects For Cloud Computing.
+http://cs441.ashessin.com/* https://asing80.people.uic.edu/cs441/:splat 301!
+https://cs441.ashessin.com/* https://asing80.people.uic.edu/cs441/:splat 301!
+
