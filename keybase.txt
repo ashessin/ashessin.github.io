@@ -1,0 +1,87 @@
+==================================================================
+https://keybase.io/user501254
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.ashessin.com
+  * I am user501254 (https://keybase.io/user501254) on keybase.
+  * I have a public key with fingerprint 4552 4162 F15E 70F6 2D59  843C 4C5B 7600 4DBA C1A4
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a22e782ae37c752dc68fbf52b784818d33dae7827cfaf35c7b405e8f1a5e7f850a",
+      "fingerprint": "45524162f15e70f62d59843c4c5b76004dbac1a4",
+      "host": "keybase.io",
+      "key_id": "4c5b76004dbac1a4",
+      "kid": "0101641f76cc0f48af0f2253fd68a6d26ec7c18e353896a85f2012c739b7c7c349740a",
+      "uid": "ddf0029c848f76ea801d93e14b094019",
+      "username": "user501254"
+    },
+    "merkle_root": {
+      "ctime": 1584992264,
+      "hash_meta": "2d1639f2336efb9935e5443003bf435555997171eee09d3e5693123e3ff15f22",
+      "seqno": 15560370
+    },
+    "revoke": {
+      "sig_ids": [
+        "6a2a3976c48f5e8780cabc2792f0077b61c0ecfea03c4f914f53e8bed0f826f90f"
+      ]
+    },
+    "service": {
+      "hostname": "www.ashessin.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1584992269,
+  "expire_in": 157680000,
+  "prev": "58d06039a86c51975c307b8f23ecec08203008f98be225c49fe0c0dad65fb47e",
+  "seqno": 42,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtU31MFEccPRRCJQXRGNTaolxrNZbi7M7O7gwqhWDVKrYBG1PFcu7OzuB63O15
+e4IEMZSIlVJRjDamGKWt2lopiB+tVYsao6lStTF+RFs1Fa0l9TMVxUC1s0TTpOn8
+s7uz7/d+773fzKr4vp64qJz8Ys/0vYc2RbV1GJ6C0sSUMq9hm6Xe9DKvn/U+WJHJ
+nIjPb5nedC+QZKDLMtOwrDOoUQ3JJlUxNziSDQ0rWMImhKbuAjTKdQ4R1QwFIIa5
+pCOmcYyA7k31citYyMKhsBWMCFoFIVmRVJlLAgK4KpuIYAVShSJDUwFQTEOnkq6I
+wnm241YIcYbusDTLFnviw9cr73/wz3QDSVUkrqmUAq5gnQMuywhyU8W6asoqoxqV
+MIMIYqLqGHFZWKUaJIYwSaFCNKVX98JeOtPkAMiECsOCkukYSCaBTFIMQBQgERfo
+sHBQDzCBdl+RoEOKtzzVG2BhfxHzhW074sZLI5YLkhBWCJFlVREWdWeeL8AiuqiV
+TUmFhMsQqowbhEDEkKJAAKDBFYjEIkSTNIkxBogJGVIJlGTIIBdZCotCicMWBG23
+A1IB1ICQEGbFtp+53R2rUCTneNPzverBJbqsQyIiEq7EwDQMqG5QWSOycKtphipR
+wChnOhCT4URSOIIMG8wEHMsqJ4B73y93+4WLLdpL7w7raQglJSVpwhdzHCuYRu2A
+EBYK2xGb2kXi77xIJOSku/FESkO9cGb4nhL5DCtoiuMiKopZ2LHsoDAjkP9NjqR6
+2aKQFWY+y0UgTcVALLcPKxaUCJtAJEB0rFIkEQ1RCDQDi2wZZRRgGYhYMSfCkTga
+VCGcAQpM3VQRNxSN/RulIgudeqHgFPkF9cjCMPOWx1X3gdGeqDjPS0kp0W/mZRn3
+CkIPXp+1dPyzKxbTx71fnrh+ic92VpYneurtUXdP7G//5OyqhDeWb7Vjr07pxIe2
+nji/d0Xg1/7TnmtevTgysbGzZfPPwyeQHzf6M5JD0ev3xH937crpy1cypiRntgSe
+PLmwobr1FX9s6/1DCafMSVcqqu7mtFWNPzjx5pyi+PKHX3gmlDbNnX15Fqja0lkN
+Qk2PR9dk/fUgO+/Yo0tzI9N27tIGtfYbOuLlDwf4G1gU6+d0peTkjduvSjG3ErIX
+dS8hoyvKLz5+94V9/c/G1m/EDU3GohLrgtmcndsyKu5cbf39Y6ndC+T4r1MaG0Yu
+r/rz+eIBbX/krKvcNaJyTPbmGV0T33l74O6VXTOy8yfcWpy7gUcajPWD7yVd1+q/
+ISsS1mqJA6/hqblH9iQ11zUOvHlv0MzzmVmNeaf6+K237DG5yyenzyeP920bd23Q
+50nVXe2/zPx9+NaYlhvTSz/11K5dumZHy8KM7gN7huCaira82IKqNc7tGV/eveH0
+DOsIPTyzbNOHu3/76MYj/5qxHcfnZ/agrKFjv21VDiwbOaugbFhgcP6dgsnb4muP
+1nx15u8TdXf6NjupdTWXP0hO+z5r3fVzHeO7KzOe1N1qmn388A93Ml7b1JrZc/Wz
+051beo6R7S9edWbnbBvStT1+cPuA96ro7VE7CvufOezbuSM69HHliBUF4KeLgSMx
++8p2tm85uSsZapcmNepT5KkVw6hePLl2+snDY+asfhUe/Qc=
+=1n0Q
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/user501254
+
+==================================================================
+
